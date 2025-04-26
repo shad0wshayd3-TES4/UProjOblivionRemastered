@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonUserWidget -FallbackName=CommonUserWidget
+#include "CommonUserWidget.h"
+
 #include "VAltarImageCalibrationWidget.generated.h"
 
 UCLASS(Blueprintable, EditInlineNew)

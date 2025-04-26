@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=ModelViewViewModel -ObjectName=MVVMViewModelBase -FallbackName=MVVMViewModelBase
+#include "MVVMViewModelBase.h"
 #include "EUserInputTextValidityCode.h"
 #include "UserInputTextPair.h"
 #include "VAltarEditableTextViewModel.generated.h"

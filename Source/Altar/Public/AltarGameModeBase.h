@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GameModeBase -FallbackName=GameModeBase
+#include "GameFramework/GameModeBase.h"
 #include "ClothQualityChangedDelegate.h"
 #include "ViewDistanceQualityChangedDelegate.h"
 #include "AltarGameModeBase.generated.h"

@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AIModule -ObjectName=PathFollowingComponent -FallbackName=PathFollowingComponent
+#include "Navigation/PathFollowingComponent.h"
+
 #include "SteeringBehaviorsPathFollowingComponent.generated.h"
 
 class USteeringBehaviorsComponent;

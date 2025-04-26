@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseLanguageCookedData -FallbackName=WwiseLanguageCookedData
+#include <WwiseLanguageCookedData.h>
+
 #include "WwiseEventCookedData.h"
 #include "WwiseLocalizedEventCookedData.generated.h"
 

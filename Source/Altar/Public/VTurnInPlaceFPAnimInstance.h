@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=GameplayTags -ObjectName=GameplayTagContainer -FallbackName=GameplayTagContainer
+#include <GameplayTagContainer.h>
 #include "TurnInPlaceAnimSet.h"
 #include "TurnInPlaceFP.h"
 #include "VLocomotionCharacterAnimInstance.h"

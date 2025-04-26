@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AIModule -ObjectName=NavLinkProxy -FallbackName=NavLinkProxy
+#include "Navigation/NavLinkProxy.h"
+
 #include "VClairvoyanceNavLinkProxy.generated.h"
 
 UCLASS(Blueprintable)

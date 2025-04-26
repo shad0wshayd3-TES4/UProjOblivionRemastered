@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ActorHiddenInGameChangedSignatureDelegate.h"
+//#include "ActorHiddenInGameChangedSignatureDelegate.h"
 #include "ECharacterSex.h"
 #include "VModdableBlueprintInterface.h"
 #include "VStatusEffectTarget.h"
@@ -17,8 +17,8 @@ protected:
     int32 ItemStackCount;
     
 public:
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FActorHiddenInGameChangedSignature OnHiddenInGameChanged;
+    /*UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = true))
+    FActorHiddenInGameChangedSignature OnHiddenInGameChanged;*/
     
     AVActor(const FObjectInitializer& ObjectInitializer);
 

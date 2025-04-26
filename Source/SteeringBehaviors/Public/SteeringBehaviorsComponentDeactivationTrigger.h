@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=TriggerBase -FallbackName=TriggerBase
+#include "Engine/TriggerBase.h"
+
 #include "SteeringBehaviorsComponentDeactivationTrigger.generated.h"
 
 UCLASS(Blueprintable)

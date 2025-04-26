@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseInitBankCookedData -FallbackName=WwiseInitBankCookedData
+#include <WwiseInitBankCookedData.h>
+
 #include "AkAudioType.h"
 #include "AkInitBank.generated.h"
 

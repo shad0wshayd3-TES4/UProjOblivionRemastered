@@ -3,7 +3,7 @@
 #include "EModularBodySection.generated.h"
 
 UENUM()
-enum class EModularBodySection {
+enum class EModularBodySection : uint32 {
     Feet = 16777216,
     Calf = 33554432,
     Knees = 67108864,

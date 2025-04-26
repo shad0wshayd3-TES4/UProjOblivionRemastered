@@ -4,6 +4,7 @@
 
 UENUM(BlueprintType)
 enum class EVAltarPerformanceContextFlags : uint8 {
+    None = 0,
     Startup = 1,
     LoadingScreen,
     PlayerLoadGame = 4,

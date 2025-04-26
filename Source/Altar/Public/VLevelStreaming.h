@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Box -FallbackName=Box
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=LevelStreamingDynamic -FallbackName=LevelStreamingDynamic
+#include "Engine/LevelStreamingDynamic.h"
+
 #include "VLevelStreaming.generated.h"
 
 class AActor;

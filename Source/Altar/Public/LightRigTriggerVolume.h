@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=TriggerBox -FallbackName=TriggerBox
+#include "Engine/TriggerBox.h"
+
 #include "Templates/SubclassOf.h"
 #include "LightRigTriggerVolume.generated.h"
 

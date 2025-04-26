@@ -1,4 +1,6 @@
 #include "AltarGameUserSetting.h"
+#include "EnhancedActionKeyMapping.h"
+
 #include "VAltarGraphicsSettingManager.h"
 
 UAltarGameUserSetting::UAltarGameUserSetting() {

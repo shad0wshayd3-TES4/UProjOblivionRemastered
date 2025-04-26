@@ -1,4 +1,7 @@
 #include "AkGameplayStatics.h"
+#include "AkUniqueID.h"
+#include "AkOutputDeviceID.h"
+
 
 UAkGameplayStatics::UAkGameplayStatics() {
 }

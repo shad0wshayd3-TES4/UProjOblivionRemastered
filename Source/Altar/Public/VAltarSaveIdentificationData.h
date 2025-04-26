@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AltarBI -ObjectName=VAltarBISaveIdentificationProvider -FallbackName=VAltarBISaveIdentificationProvider
+#include "VAltarBISaveIdentificationProvider.h"
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=CoreUObject -ObjectName=Guid -FallbackName=Guid
 #include "VBaseAltarSaveData.h"
 #include "VAltarSaveIdentificationData.generated.h"

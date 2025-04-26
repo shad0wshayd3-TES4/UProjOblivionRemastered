@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=CancellableAsyncAction -FallbackName=CancellableAsyncAction
+#include "Engine/CancellableAsyncAction.h"
+
 #include "CreateWidgetAsyncDelegateDelegate.h"
 #include "AsyncAction_CreateWidgetAsync.generated.h"
 

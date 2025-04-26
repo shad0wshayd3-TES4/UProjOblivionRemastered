@@ -11,5 +11,6 @@ public class OblivionRemasteredTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V4;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
 		ExtraModuleNames.Add("OblivionRemastered");
-	}
+        ExtraModuleNames.Add("Altar");
+    }
 }

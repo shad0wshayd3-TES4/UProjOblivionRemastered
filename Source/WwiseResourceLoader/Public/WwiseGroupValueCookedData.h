@@ -20,5 +20,13 @@ public:
     FName DebugName;
     
     FWwiseGroupValueCookedData();
+
 };
 
+FORCEINLINE uint32 GetTypeHash(const FWwiseGroupValueCookedData& Data)
+{
+    uint32 Hash = HashCombine(GetTypeHash(Data.Type), GetTypeHash(Data.GroupID));
+    Hash = HashCombine(Hash, GetTypeHash(Data.ID));
+    Hash = HashCombine(Hash, GetTypeHash(Data.DebugName));
+    return Hash;
+}

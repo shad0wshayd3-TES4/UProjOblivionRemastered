@@ -3,6 +3,10 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=UE5AltarPairing -ObjectName=EVDefaultSurfaceType -FallbackName=EVDefaultSurfaceType
 //CROSS-MODULE INCLUDE V2: -ModuleName=UE5AltarPairing -ObjectName=EVPhysicsLoadingBehaviour -FallbackName=EVPhysicsLoadingBehaviour
 //CROSS-MODULE INCLUDE V2: -ModuleName=UE5AltarPairing -ObjectName=EVPhysicsSimulationBehaviour -FallbackName=EVPhysicsSimulationBehaviour
+#include "EVPhysicsSimulationBehaviour.h"
+#include <EVPhysicsLoadingBehaviour.h>
+#include <EVDefaultSurfaceType.h>
+
 #include "VBuoyancySettings.h"
 #include "VPhysicsControlSettings.generated.h"
 

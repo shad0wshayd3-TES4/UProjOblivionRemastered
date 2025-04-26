@@ -4,6 +4,7 @@
 
 UENUM(BlueprintType)
 enum class EAmmoFlags : uint8 {
+    None = 0,
     IgnoreResist = 1,
 };
 

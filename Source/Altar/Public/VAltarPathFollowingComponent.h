@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=SteeringBehaviors -ObjectName=SteeringBehaviorsPathFollowingComponent -FallbackName=SteeringBehaviorsPathFollowingComponent
+#include "SteeringBehaviorsPathFollowingComponent.h"
+
 #include "VAltarPathFollowingComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

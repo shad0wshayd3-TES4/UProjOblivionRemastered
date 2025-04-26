@@ -1,7 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=UserObjectListEntry -FallbackName=UserObjectListEntry
+#include "Blueprint/IUserObjectListEntry.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=UserWidget -FallbackName=UserWidget
+#include "Blueprint/UserWidget.h"
 #include "NavigationListviewEntry.generated.h"
 
 class UObject;

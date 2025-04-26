@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=NavigationSystemModuleConfig -FallbackName=NavigationSystemModuleConfig
+#include "NavigationSystem.h"
+
 #include "VAltarNavigationSystemModuleConfig.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)

@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=VCommonUIEnhancedInputNavigation -ObjectName=VNavigableScrollBox -FallbackName=VNavigableScrollBox
+#include "VNavigableScrollBox.h"
+
 #include "VAltarNavigableScrollBox.generated.h"
 
 class UVModernScrollbar;

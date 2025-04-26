@@ -2,6 +2,9 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonUserWidget -FallbackName=CommonUserWidget
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=UserObjectListEntry -FallbackName=UserObjectListEntry
+#include "Blueprint/IUserObjectListEntry.h"
+#include "CommonUserWidget.h"
+
 #include "VLegacyListViewEntryBase.generated.h"
 
 class UObject;

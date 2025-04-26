@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonInput -ObjectName=ECommonInputType -FallbackName=ECommonInputType
 //CROSS-MODULE INCLUDE V2: -ModuleName=VCommonUIEnhancedInputNavigation -ObjectName=VNavigableActivatableWidgetBase -FallbackName=VNavigableActivatableWidgetBase
+#include "VNavigableActivatableWidgetBase.h"
 #include "VAltarMenu.generated.h"
 
 class IVEnhancedInputNavigable;

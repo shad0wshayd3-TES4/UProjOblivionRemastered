@@ -2,6 +2,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ChildActorComponent -FallbackName=ChildActorComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SkeletalMeshComponent -FallbackName=SkeletalMeshComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=MotionWarping -ObjectName=MotionWarpingComponent -FallbackName=MotionWarpingComponent
+#include "MotionWarpingComponent.h"
+
 #include "VCharacterAppearancePairingComponent.h"
 #include "VCharacterBodyPairingComponent.h"
 #include "VCharacterPhenotypeData.h"

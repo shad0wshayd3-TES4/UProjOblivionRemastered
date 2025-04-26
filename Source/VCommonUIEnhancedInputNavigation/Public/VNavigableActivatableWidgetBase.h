@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonActivatableWidget -FallbackName=CommonActivatableWidget
+#include "CommonActivatableWidget.h"
 #include "EVNavigationDirection.h"
 #include "VEnhancedInputNavigable.h"
 #include "VGenericInputActionData.h"

@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=GameplayTags -ObjectName=GameplayTag -FallbackName=GameplayTag
 //CROSS-MODULE INCLUDE V2: -ModuleName=VActorStateMachine -ObjectName=VStateMachineComponent -FallbackName=VStateMachineComponent
+#include "VStateMachineComponent.h"
+
 #include "VPairedPawnStateMachineComponent.generated.h"
 
 class UDataTable;

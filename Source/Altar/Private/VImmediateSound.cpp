@@ -1,5 +1,7 @@
 #include "VImmediateSound.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=AudioComponent -FallbackName=AudioComponent
+#include "Components/AudioComponent.h"
+
 #include "VTESObjectRefComponent.h"
 #include "VTransformPairingComponent.h"
 

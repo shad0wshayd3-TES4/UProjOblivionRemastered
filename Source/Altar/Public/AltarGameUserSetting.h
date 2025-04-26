@@ -1,7 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GameUserSettings -FallbackName=GameUserSettings
+#include "GameFramework/GameUserSettings.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=EnhancedInput -ObjectName=EnhancedActionKeyMapping -FallbackName=EnhancedActionKeyMapping
+#include "EnhancedActionKeyMapping.h"
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=InputCore -ObjectName=Key -FallbackName=Key
 #include "EPerformanceMode.h"
 #include "ERebindSaveSlot.h"

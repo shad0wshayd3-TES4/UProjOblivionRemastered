@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseGameParameterCookedData -FallbackName=WwiseGameParameterCookedData
+#include <WwiseGameParameterCookedData.h>
 #include "AkAudioType.h"
 #include "AkRtpc.generated.h"
 

@@ -1,6 +1,9 @@
 #include "VPairedPawn.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoxComponent -FallbackName=BoxComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=CapsuleComponent -FallbackName=CapsuleComponent
+#include "Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EAutoPossessAI -FallbackName=EAutoPossessAI
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SceneComponent -FallbackName=SceneComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SkeletalMeshComponent -FallbackName=SkeletalMeshComponent
@@ -23,6 +26,9 @@
 #include "VWeaponsPairingComponent.h"
 
 AVPairedPawn::AVPairedPawn(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UVPairedPawnMovementComponent>(TEXT("CharMoveComp")).SetDefaultSubobjectClass<USkeletalMeshComponent>(TEXT("CharacterMesh0"))) {
+    MainSkeletalMeshComponent = Cast<USkeletalMeshComponent>(GetDefaultSubobjectByName(TEXT("CharacterMesh0")));
+
+    
     this->AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
     this->AIControllerClass = AVPairedPawnAIController::StaticClass();
     this->TurnInPlaceAngleThreshold = 45.00f;

@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonActivatableWidgetStack -FallbackName=CommonActivatableWidgetStack
+#include "Widgets/CommonActivatableWidgetContainer.h"
+
 #include "VActivatableWidgetStack.generated.h"
 
 class UCommonActivatableWidget;

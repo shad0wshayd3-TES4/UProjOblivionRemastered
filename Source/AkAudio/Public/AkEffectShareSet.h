@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseLocalizedShareSetCookedData -FallbackName=WwiseLocalizedShareSetCookedData
 #include "AkAudioType.h"
+#include <WwiseLocalizedShareSetCookedData.h>
+
 #include "AkEffectShareSet.generated.h"
 
 UCLASS(Blueprintable)

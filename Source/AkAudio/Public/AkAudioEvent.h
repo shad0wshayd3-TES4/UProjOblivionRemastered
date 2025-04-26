@@ -8,6 +8,8 @@
 #include "AkAudioType.h"
 #include "EAkCurveInterpolation.h"
 #include "OnAkPostEventCallbackDelegate.h"
+#include <WwiseLocalizedEventCookedData.h>
+
 #include "AkAudioEvent.generated.h"
 
 class AActor;

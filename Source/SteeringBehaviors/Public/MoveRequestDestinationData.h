@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AIModule -ObjectName=AIRequestID -FallbackName=AIRequestID
+#include <AITypes.h>
+
 #include "MoveRequestDestinationData.generated.h"
 
 class AAIController;

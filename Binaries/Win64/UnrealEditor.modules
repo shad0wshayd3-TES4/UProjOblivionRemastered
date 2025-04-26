@@ -1,7 +1,18 @@
 {
-	"BuildId": "df802b81-8782-483d-b3b4-529202356d02",
+	"BuildId": "b44ae7f4-b7de-4107-a09d-8a5b55b3d374",
 	"Modules": 
 	{
-		"OblivionRemastered": "UnrealEditor-OblivionRemastered.dll"
+		"AkAudio": "UnrealEditor-AkAudio.dll",
+		"Altar": "UnrealEditor-Altar.dll",
+		"AltarBI": "UnrealEditor-AltarBI.dll",
+		"AtmosphericToolRuntime": "UnrealEditor-AtmosphericToolRuntime.dll",
+		"OblivionRemastered": "UnrealEditor-OblivionRemastered.dll",
+		"SteeringBehaviors": "UnrealEditor-SteeringBehaviors.dll",
+		"UE5AltarPairing": "UnrealEditor-UE5AltarPairing.dll",
+		"VActorStateMachine": "UnrealEditor-VActorStateMachine.dll",
+		"VCommonUIEnhancedInputNavigation": "UnrealEditor-VCommonUIEnhancedInputNavigation.dll",
+		"WwiseFileHandler": "UnrealEditor-WwiseFileHandler.dll",
+		"WwiseObjectUtils": "UnrealEditor-WwiseObjectUtils.dll",
+		"WwiseResourceLoader": "UnrealEditor-WwiseResourceLoader.dll"
 	}
 }

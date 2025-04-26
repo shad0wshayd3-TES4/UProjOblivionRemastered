@@ -6,7 +6,11 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=UE5AltarPairing -ObjectName=EVPhysicsSimulationBehaviour -FallbackName=EVPhysicsSimulationBehaviour
 #include "EVConstrainingMode.h"
 #include "EVPhysicsSettingsAuthority.h"
+#include <EVPhysicsLoadingBehaviour.h>
+#include <EVPhysicsSimulationBehaviour.h>
+#include <EVDefaultSurfaceType.h>
 #include "VPhysicsControllableDebugData.generated.h"
+
 
 class UVPrimitiveComponentDebugData;
 

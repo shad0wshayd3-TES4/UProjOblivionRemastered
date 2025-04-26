@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseGroupValueCookedData -FallbackName=WwiseGroupValueCookedData
 #include "AkAudioType.h"
+#include <WwiseGroupValueCookedData.h>
+
 #include "AkGroupValue.generated.h"
 
 UCLASS(Abstract, Blueprintable)

@@ -1,6 +1,8 @@
 #include "VActivable.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SkeletalMeshComponent -FallbackName=SkeletalMeshComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=NavArea_Null -FallbackName=NavArea_Null
+#include "NavAreas/NavArea_Null.h"
+
 #include "VAltarAkComponent.h"
 #include "VAnimationObjectPairingComponent.h"
 #include "VPhysicsControllerComponent.h"

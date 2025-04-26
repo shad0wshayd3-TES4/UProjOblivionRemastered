@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseAcousticTextureCookedData -FallbackName=WwiseAcousticTextureCookedData
 #include "AkAudioType.h"
+#include <WwiseAcousticTextureCookedData.h>
+
 #include "AkAcousticTexture.generated.h"
 
 UCLASS(Blueprintable)

@@ -1,5 +1,7 @@
 #include "VAudioTriggerBox.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoxComponent -FallbackName=BoxComponent
+#include "Components/BoxComponent.h"
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SceneComponent -FallbackName=SceneComponent
 
 AVAudioTriggerBox::AVAudioTriggerBox(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {

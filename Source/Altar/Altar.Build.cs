@@ -39,6 +39,8 @@ public class Altar : ModuleRules {
             "VActorStateMachine",
             "VCommonUIEnhancedInputNavigation",
             "Water",
+            "InputDevice",
+            "EnhancedInput",
         });
     }
 }

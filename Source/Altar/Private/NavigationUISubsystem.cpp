@@ -1,4 +1,5 @@
 #include "NavigationUISubsystem.h"
+#include "CommonInputTypeEnum.h"
 
 UNavigationUISubsystem::UNavigationUISubsystem() {
     this->MappingTable = NULL;

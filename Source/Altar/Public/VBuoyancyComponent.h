@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Water -ObjectName=BuoyancyComponent -FallbackName=BuoyancyComponent
+#include "BuoyancyComponent.h"
+
 #include "VBuoyancyComponent.generated.h"
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

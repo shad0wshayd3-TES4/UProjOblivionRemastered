@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=SteeringBehaviors -ObjectName=SteeringBehavior -FallbackName=SteeringBehavior
+#include "SteeringBehavior.h"
+
 #include "SteeringBehavior_ReturnToNavmesh.generated.h"
 
 class ARecastNavMesh;

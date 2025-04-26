@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=NavModifierComponent -FallbackName=NavModifierComponent
+#include "NavModifierComponent.h"
+
 #include "VNavModifierComponent.generated.h"
 
 class UPrimitiveComponent;

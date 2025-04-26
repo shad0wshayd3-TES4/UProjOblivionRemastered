@@ -140,6 +140,9 @@
 Intermediate/
 obj/
 .vs/
+Binaries/
+TestCook/
+Saved/
 
 # Ignore any saved local files
 /Saved/*

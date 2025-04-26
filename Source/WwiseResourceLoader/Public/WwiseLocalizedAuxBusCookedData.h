@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseLanguageCookedData -FallbackName=WwiseLanguageCookedData
 #include "WwiseAuxBusCookedData.h"
+#include <WwiseLanguageCookedData.h>
+
 #include "WwiseLocalizedAuxBusCookedData.generated.h"
 
 USTRUCT(BlueprintType)

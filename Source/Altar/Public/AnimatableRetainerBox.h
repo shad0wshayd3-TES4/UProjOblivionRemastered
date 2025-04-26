@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=SlateCore -ObjectName=SlateBrush -FallbackName=SlateBrush
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=RetainerBox -FallbackName=RetainerBox
+#include "Components/RetainerBox.h"
+
 #include "AnimatableRetainerBox.generated.h"
 
 UCLASS(Blueprintable)

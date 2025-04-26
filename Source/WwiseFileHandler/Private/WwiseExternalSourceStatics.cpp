@@ -1,4 +1,5 @@
 #include "WwiseExternalSourceStatics.h"
+#include "AkUniqueID.h"
 
 UWwiseExternalSourceStatics::UWwiseExternalSourceStatics() {
 }

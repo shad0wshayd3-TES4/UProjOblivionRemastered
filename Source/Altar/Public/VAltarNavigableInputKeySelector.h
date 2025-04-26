@@ -4,6 +4,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=SlateCore -ObjectName=SlateBrush -FallbackName=SlateBrush
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=ESlateVisibility -FallbackName=ESlateVisibility
 //CROSS-MODULE INCLUDE V2: -ModuleName=VCommonUIEnhancedInputNavigation -ObjectName=VNavigableInputKeySelector -FallbackName=VNavigableInputKeySelector
+#include "VNavigableInputKeySelector.h"
 #include "OnWidgetFocussedDelegate.h"
 #include "VAltarNavigableInputKeySelector.generated.h"
 

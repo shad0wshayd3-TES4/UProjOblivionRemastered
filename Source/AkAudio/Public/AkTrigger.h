@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseTriggerCookedData -FallbackName=WwiseTriggerCookedData
 #include "AkAudioType.h"
+#include <WwiseTriggerCookedData.h>
+
 #include "AkTrigger.generated.h"
 
 UCLASS(Blueprintable)

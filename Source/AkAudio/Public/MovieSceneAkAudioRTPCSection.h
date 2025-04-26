@@ -2,7 +2,11 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RichCurve -FallbackName=RichCurve
 //CROSS-MODULE INCLUDE V2: -ModuleName=MovieScene -ObjectName=MovieSceneFloatChannel -FallbackName=MovieSceneFloatChannel
+#include <Channels/MovieSceneFloatChannel.h>
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=MovieScene -ObjectName=MovieSceneSection -FallbackName=MovieSceneSection
+#include "MovieSceneSection.h"
+
 #include "MovieSceneFloatChannelSerializationHelper.h"
 #include "MovieSceneAkAudioRTPCSection.generated.h"
 

@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SaveGame -FallbackName=SaveGame
+#include "GameFramework/SaveGame.h"
+
 #include "SerializedAltarSaveData.h"
 #include "VSaveGameDetails.h"
 #include "VAltarSaveGame.generated.h"

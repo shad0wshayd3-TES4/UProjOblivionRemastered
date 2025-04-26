@@ -4,6 +4,7 @@
 
 UENUM(BlueprintType)
 enum class EVEnvironmentFormID : uint8 {
+    None = 0,
     ACTIVABLE = 18,
     APPARATUS,
     ARMOR,

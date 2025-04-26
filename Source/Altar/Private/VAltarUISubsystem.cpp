@@ -1,4 +1,5 @@
 #include "VAltarUISubsystem.h"
+#include "GameplayTagContainer.h"
 
 UVAltarUISubsystem::UVAltarUISubsystem() {
     this->PrimaryHud = NULL;

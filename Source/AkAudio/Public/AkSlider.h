@@ -5,6 +5,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=SlateCore -ObjectName=EOrientation -FallbackName=EOrientation
 //CROSS-MODULE INCLUDE V2: -ModuleName=SlateCore -ObjectName=SliderStyle -FallbackName=SliderStyle
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=Widget -FallbackName=Widget
+#include "Components/Widget.h"
+
 #include "AkOnFloatValueChangedEventDelegate.h"
 #include "AkPropertyToControl.h"
 #include "AkWwiseItemToControl.h"

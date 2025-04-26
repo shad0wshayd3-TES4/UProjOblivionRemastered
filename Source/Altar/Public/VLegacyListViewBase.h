@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=ListView -FallbackName=ListView
+#include "Components/ListView.h"
+
 #include "LegacyLVOnScrollOffsetOfEndUpdatedDelegate.h"
 #include "VLegacyListViewBase.generated.h"
 

@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonVideoPlayer -FallbackName=CommonVideoPlayer
+#include "CommonVideoPlayer.h"
+
 #include "AltarOnMediaOpenedDelegate.h"
 #include "AltarOnPlaybackCompleteDelegate.h"
 #include "VAltarCommonVideoPlayer.generated.h"
@@ -15,7 +17,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FAltarOnPlaybackComplete AltarOnPlaybackComplete;
     
-    UVAltarCommonVideoPlayer();
+    UVAltarCommonVideoPlayer(const FObjectInitializer& ObjectInitializer);
 
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsMediaOpen() const;

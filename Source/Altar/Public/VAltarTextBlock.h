@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonTextBlock -FallbackName=CommonTextBlock
+#include "CommonTextBlock.h"
+
 #include "EVModernTextBlockFontSizeChannel.h"
 #include "VAltarTextBlock.generated.h"
 

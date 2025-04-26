@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonListView -FallbackName=CommonListView
+#include "CommonListView.h"
+
 #include "ListViewScrollbarUpdatedDelegate.h"
 #include "VModernListView.generated.h"
 
@@ -11,7 +13,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FListViewScrollbarUpdated OnListViewScrollbarChanged;
     
-    UVModernListView();
+    UVModernListView(const FObjectInitializer& ObjectInitializer);
 
 protected:
     UFUNCTION(BlueprintCallable)

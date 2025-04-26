@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=VActorStateMachine -ObjectName=VStateCondition -FallbackName=VStateCondition
+#include "VStateCondition.h"
+
 #include "VAltarStateConditionBase.generated.h"
 
 class AVPairedPawn;

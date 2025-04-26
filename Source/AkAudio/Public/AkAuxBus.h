@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseResourceLoader -ObjectName=WwiseLocalizedAuxBusCookedData -FallbackName=WwiseLocalizedAuxBusCookedData
 #include "AkAudioType.h"
+#include <WwiseLocalizedAuxBusCookedData.h>
+
 #include "AkAuxBus.generated.h"
 
 class UAkAudioBank;

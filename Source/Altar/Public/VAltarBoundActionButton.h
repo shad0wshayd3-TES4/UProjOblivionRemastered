@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonBoundActionButton -FallbackName=CommonBoundActionButton
+#include "Input/CommonBoundActionButton.h"
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=InputCore -ObjectName=Key -FallbackName=Key
 #include "VAltarBoundActionButton.generated.h"
 

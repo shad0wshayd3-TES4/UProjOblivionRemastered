@@ -1,4 +1,6 @@
 #include "VNavigableInputKeySelector.h"
+#include "CommonInputBaseTypes.h"
+
 
 UVNavigableInputKeySelector::UVNavigableInputKeySelector() {
     this->BindingType = ECommonInputType::MouseAndKeyboard;

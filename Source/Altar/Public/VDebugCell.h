@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=PostProcessVolume -FallbackName=PostProcessVolume
+#include "Engine/PostProcessVolume.h"
+
 #include "VDebugCell.generated.h"
 
 UCLASS(Blueprintable)

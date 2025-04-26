@@ -1,6 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=UserWidget -FallbackName=UserWidget
+#include "Blueprint/IUserObjectListEntry.h"
+
+#include "Blueprint/UserWidget.h"
 #include "VPhysicsControllableDebugData.h"
 #include "VPhysicsControllableWidget.generated.h"
 

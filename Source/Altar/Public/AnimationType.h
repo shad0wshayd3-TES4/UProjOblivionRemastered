@@ -4,6 +4,7 @@
 
 UENUM(BlueprintType)
 enum class AnimationType : uint8 {
+    None = 0,
     Sit = 1,
     Sleep,
     Lean = 4,

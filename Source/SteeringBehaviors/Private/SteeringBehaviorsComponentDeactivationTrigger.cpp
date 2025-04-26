@@ -1,4 +1,5 @@
 #include "SteeringBehaviorsComponentDeactivationTrigger.h"
+#include <Components/BoxComponent.h>
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoxComponent -FallbackName=BoxComponent
 
 ASteeringBehaviorsComponentDeactivationTrigger::ASteeringBehaviorsComponentDeactivationTrigger(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {

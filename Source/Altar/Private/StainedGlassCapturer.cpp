@@ -1,5 +1,6 @@
 #include "StainedGlassCapturer.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=SceneCaptureComponent2D -FallbackName=SceneCaptureComponent2D
+#include "Components/SceneCaptureComponent2D.h"
 
 AStainedGlassCapturer::AStainedGlassCapturer(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SceneCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("SceneCaptureComponent2D"));

@@ -1,6 +1,7 @@
 #include "VAmmunition.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ProjectileMovementComponent -FallbackName=ProjectileMovementComponent
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=StaticMeshComponent -FallbackName=StaticMeshComponent
+#include "GameFramework/ProjectileMovementComponent.h"
 #include "VAltarAkComponent.h"
 #include "VHitBoxComponent.h"
 #include "VPhysicsControllerComponent.h"

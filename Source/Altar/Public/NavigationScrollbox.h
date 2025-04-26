@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=ScrollBox -FallbackName=ScrollBox
+#include "Components/ScrollBox.h"
+
 #include "BasicUINavigation.h"
 #include "NavigationUIElement.h"
 #include "NavigationScrollbox.generated.h"

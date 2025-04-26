@@ -2,6 +2,9 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseMediaCookedData -FallbackName=WwiseMediaCookedData
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseSoundBankCookedData -FallbackName=WwiseSoundBankCookedData
+#include <WwiseMediaCookedData.h>
+#include <WwiseSoundBankCookedData.h>
+
 #include "WwiseAuxBusCookedData.generated.h"
 
 USTRUCT(BlueprintType)

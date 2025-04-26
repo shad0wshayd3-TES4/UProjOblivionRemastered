@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=ExpandableArea -FallbackName=ExpandableArea
+#include "Components/ExpandableArea.h"
+
 #include "BasicUINavigation.h"
 #include "NavigationUIElement.h"
 #include "NavigationExpandableArea.generated.h"

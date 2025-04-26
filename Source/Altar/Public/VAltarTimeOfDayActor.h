@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AtmosphericToolRuntime -ObjectName=ATMTimeOfDayActor -FallbackName=ATMTimeOfDayActor
+#include "ATMTimeOfDayActor.h"
+
 #include "VAltarTimeOfDayActor.generated.h"
 
 class AVAltarMoonActor;

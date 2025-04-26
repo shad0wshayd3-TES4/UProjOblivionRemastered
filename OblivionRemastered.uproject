@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "",
+	"EngineAssociation": "{9406C5B7-4562-BD36-E1EC-B5A45E0837EF}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -18,6 +18,11 @@
 				"VActorStateMachine",
 				"VCommonUIEnhancedInputNavigation"
 			]
+		},
+		{
+			"Name": "OblivionRemastered",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [

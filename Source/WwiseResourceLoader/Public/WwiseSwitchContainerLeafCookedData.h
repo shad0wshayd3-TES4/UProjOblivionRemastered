@@ -4,7 +4,11 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseMediaCookedData -FallbackName=WwiseMediaCookedData
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseSoundBankCookedData -FallbackName=WwiseSoundBankCookedData
 #include "WwiseGroupValueCookedData.h"
+#include <WwiseSoundBankCookedData.h>
+#include <WwiseMediaCookedData.h>
+#include <WwiseExternalSourceCookedData.h>
 #include "WwiseSwitchContainerLeafCookedData.generated.h"
+
 
 USTRUCT(BlueprintType)
 struct WWISERESOURCELOADER_API FWwiseSwitchContainerLeafCookedData {

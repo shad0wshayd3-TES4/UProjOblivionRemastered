@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=VCommonUIEnhancedInputNavigation -ObjectName=VNavigableActivatableWidgetBase -FallbackName=VNavigableActivatableWidgetBase
+#include "VNavigableActivatableWidgetBase.h"
 #include "VAltarWidget.generated.h"
 
 UCLASS(Blueprintable, EditInlineNew)

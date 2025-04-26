@@ -2,6 +2,8 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=SlateCore -ObjectName=TextBlockStyle -FallbackName=TextBlockStyle
 //CROSS-MODULE INCLUDE V2: -ModuleName=UMG -ObjectName=RichTextBlockDecorator -FallbackName=RichTextBlockDecorator
+#include "Components/RichTextBlockDecorator.h"
+
 #include "Templates/SubclassOf.h"
 #include "VAltarRichInputActionDecorator.generated.h"
 

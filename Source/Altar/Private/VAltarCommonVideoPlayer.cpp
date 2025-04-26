@@ -1,6 +1,7 @@
 #include "VAltarCommonVideoPlayer.h"
 
-UVAltarCommonVideoPlayer::UVAltarCommonVideoPlayer() {
+UVAltarCommonVideoPlayer::UVAltarCommonVideoPlayer(const FObjectInitializer& ObjectInitializer)
+    : Super(ObjectInitializer) {
 }
 
 bool UVAltarCommonVideoPlayer::IsMediaOpen() const {

@@ -1,5 +1,6 @@
 #include "VAltarPlayerCameraManager.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=VActorStateMachine -ObjectName=VStateMachineComponent -FallbackName=VStateMachineComponent
+#include "VStateMachineComponent.h"
 #include "VAudioListener.h"
 
 AVAltarPlayerCameraManager::AVAltarPlayerCameraManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {

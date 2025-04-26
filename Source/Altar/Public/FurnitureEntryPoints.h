@@ -4,6 +4,7 @@
 
 UENUM(BlueprintType)
 enum class FurnitureEntryPoints : uint8 {
+    None = 0,
     Front = 1,
     Behind,
     Right = 4,

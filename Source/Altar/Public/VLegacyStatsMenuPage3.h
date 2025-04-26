@@ -7,11 +7,11 @@ UCLASS(Blueprintable, EditInlineNew)
 class ALTAR_API UVLegacyStatsMenuPage3 : public UVAltarWidget {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintAssignable, BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    /*UPROPERTY(BlueprintAssignable, BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = true))
     FLegacyStatsMenuHoverEvent OnItemHovered;
     
     UPROPERTY(BlueprintAssignable, BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FLegacyStatsMenuNoHoverEvent OnNoItemsHovered;
+    FLegacyStatsMenuNoHoverEvent OnNoItemsHovered;*/
     
     UVLegacyStatsMenuPage3();
 

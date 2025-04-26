@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=CameraActor -FallbackName=CameraActor
+#include "Camera/CameraActor.h"
+
 #include "VAltarCameraActor.generated.h"
 
 class UMaterial;

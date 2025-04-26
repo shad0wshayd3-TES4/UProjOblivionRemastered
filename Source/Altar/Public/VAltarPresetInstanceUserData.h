@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AtmosphericToolRuntime -ObjectName=ATMPresetInstanceUserData -FallbackName=ATMPresetInstanceUserData
+#include "ATMPresetInstanceUserData.h"
+
 #include "VAltarPresetInstanceUserData.generated.h"
 
 UCLASS(Blueprintable)

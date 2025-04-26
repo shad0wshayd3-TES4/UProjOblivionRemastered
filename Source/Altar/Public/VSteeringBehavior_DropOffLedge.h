@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=SteeringBehaviors -ObjectName=SteeringBehavior_DropOffLedge -FallbackName=SteeringBehavior_DropOffLedge
+#include "SteeringBehavior_DropOffLedge.h"
+
 #include "VSteeringBehavior_DropOffLedge.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)

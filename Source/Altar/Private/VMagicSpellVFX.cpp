@@ -1,5 +1,7 @@
 #include "VMagicSpellVFX.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ProjectileMovementComponent -FallbackName=ProjectileMovementComponent
+#include "GameFramework/ProjectileMovementComponent.h"
+
 #include "VHitBoxComponent.h"
 #include "VTESObjectRefComponent.h"
 #include "VTransformPairingComponent.h"

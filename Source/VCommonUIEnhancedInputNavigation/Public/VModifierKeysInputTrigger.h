@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=EnhancedInput -ObjectName=InputTrigger -FallbackName=InputTrigger
+#include "InputTriggers.h"
 #include "VModifierKeysInputTrigger.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)

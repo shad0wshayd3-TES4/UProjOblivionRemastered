@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonRichTextBlock -FallbackName=CommonRichTextBlock
+#include "CommonRichTextBlock.h"
+
 #include "EVModernRichTextBlockFontSizeChannel.h"
 #include "VAltarRichTextBlock.generated.h"
 

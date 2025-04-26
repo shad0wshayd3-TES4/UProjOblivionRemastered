@@ -1,7 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=CancellableAsyncAction -FallbackName=CancellableAsyncAction
+#include "Engine/CancellableAsyncAction.h"
+
 //CROSS-MODULE INCLUDE V2: -ModuleName=GameplayTags -ObjectName=GameplayTag -FallbackName=GameplayTag
+#include "GameplayTagContainer.h"
+
 #include "PushContentToLayerAsyncDelegateDelegate.h"
 #include "AsyncAction_PushWidgetToLayer.generated.h"
 

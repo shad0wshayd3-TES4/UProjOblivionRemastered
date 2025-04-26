@@ -1,6 +1,6 @@
 #include "VTileViewWidget.h"
 
-UVTileViewWidget::UVTileViewWidget() {
+UVTileViewWidget::UVTileViewWidget(const FObjectInitializer& ObjectInitializer)
+    : Super(ObjectInitializer)
+{
 }
-
-

@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=CommonUI -ObjectName=CommonButtonBase -FallbackName=CommonButtonBase
+#include "CommonButtonBase.h"
+
 #include "BasicUINavigation.h"
 #include "NavigationUIElement.h"
 #include "NavigationButton.generated.h"

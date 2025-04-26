@@ -2,6 +2,10 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BlueprintAsyncActionBase -FallbackName=BlueprintAsyncActionBase
 //CROSS-MODULE INCLUDE V2: -ModuleName=GameplayTags -ObjectName=GameplayTag -FallbackName=GameplayTag
+#include "GameplayTagContainer.h"
+
+#include "Kismet/BlueprintAsyncActionBase.h"
+
 #include "OnStateBehaviorEndedDelegateDelegate.h"
 #include "ActionStateStartBehavior.generated.h"
 

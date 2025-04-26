@@ -4,6 +4,7 @@
 
 UENUM(BlueprintType)
 enum class ELeveledObjectFlags : uint8 {
+    None = 0,
     CalculateAllBelowLevel = 1,
     CalculateForAllInCount,
 };

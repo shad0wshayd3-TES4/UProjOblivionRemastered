@@ -4,6 +4,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=AnimNodeReference -FallbackName=AnimNodeReference
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=AnimUpdateContext -FallbackName=AnimUpdateContext
 //CROSS-MODULE INCLUDE V2: -ModuleName=GameplayTags -ObjectName=GameplayTag -FallbackName=GameplayTag
+#include "GameplayTagContainer.h"
+
 #include "VHumanoidLowerAndUpperBodySetup.h"
 #include "VLayerCharacterAnimInstance.h"
 #include "VTurnInPlace.h"

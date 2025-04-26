@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Altar -ObjectName=AltarQMPSubsytemInterface -FallbackName=AltarQMPSubsytemInterface
 //CROSS-MODULE INCLUDE V2: -ModuleName=GameplayTags -ObjectName=GameplayTag -FallbackName=GameplayTag
+#include "GameplayTagContainer.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=QMPUnrealIntegration -ObjectName=QMPGameInstance -FallbackName=QMPGameInstance
 #include "AltarSpecificQMPGameInstance.generated.h"
 

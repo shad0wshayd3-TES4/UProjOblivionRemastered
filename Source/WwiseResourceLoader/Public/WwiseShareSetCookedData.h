@@ -2,7 +2,10 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseMediaCookedData -FallbackName=WwiseMediaCookedData
 //CROSS-MODULE INCLUDE V2: -ModuleName=WwiseFileHandler -ObjectName=WwiseSoundBankCookedData -FallbackName=WwiseSoundBankCookedData
+#include <WwiseSoundBankCookedData.h>
+#include <WwiseMediaCookedData.h>
 #include "WwiseShareSetCookedData.generated.h"
+
 
 USTRUCT(BlueprintType)
 struct WWISERESOURCELOADER_API FWwiseShareSetCookedData {
