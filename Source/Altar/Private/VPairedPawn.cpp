@@ -26,7 +26,14 @@
 #include "VWeaponsPairingComponent.h"
 
 AVPairedPawn::AVPairedPawn(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UVPairedPawnMovementComponent>(TEXT("CharMoveComp")).SetDefaultSubobjectClass<USkeletalMeshComponent>(TEXT("CharacterMesh0"))) {
-    MainSkeletalMeshComponent = Cast<USkeletalMeshComponent>(GetDefaultSubobjectByName(TEXT("CharacterMesh0")));
+    /*MainSkeletalMeshComponent = Cast<USkeletalMeshComponent>(GetDefaultSubobjectByName(TEXT("CharacterMesh0")));
+
+    if (!MainSkeletalMeshComponent)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("MainSkeletalMeshComponent was null in AVPairedPawn constructor, creating manually."));
+        MainSkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CharacterMesh0"));
+        MainSkeletalMeshComponent->SetupAttachment(RootComponent);
+    }*/
 
     
     this->AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
@@ -108,11 +115,17 @@ AVPairedPawn::AVPairedPawn(const FObjectInitializer& ObjectInitializer) : Super(
     this->UnequipEvent = NULL;
     this->DamageRumbleEvent = NULL;
     this->StrengthEncumbranceMult = 5.00f;
-    this->AkAudioComponent->SetupAttachment(MainSkeletalMeshComponent);
+    /*this->AkAudioComponent->SetupAttachment(MainSkeletalMeshComponent);
     this->FakeRoot->SetupAttachment(RootComponent);
     this->MainSkeletalMeshComponent->SetupAttachment(FakeRoot);
     this->PhysicsBodyCollider->SetupAttachment(RootComponent);
-    this->WorldLimitDetectionBox->SetupAttachment(RootComponent);
+    this->WorldLimitDetectionBox->SetupAttachment(RootComponent);*/
+    this->AkAudioComponent = NULL;
+    this->FakeRoot = NULL;
+    this->MainSkeletalMeshComponent = NULL;
+    this->PhysicsBodyCollider = NULL;
+    this->WorldLimitDetectionBox = NULL;
+
 }
 
 void AVPairedPawn::UpdateDrawnArrowVisibility() {

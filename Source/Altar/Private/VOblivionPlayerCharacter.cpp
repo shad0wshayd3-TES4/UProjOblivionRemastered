@@ -15,26 +15,26 @@ AVOblivionPlayerCharacter::AVOblivionPlayerCharacter(const FObjectInitializer& O
     this->InventoryCharacterReference = NULL;
     this->TelekinesisDistance = 0.00f;
     this->TelekinesisDuration = 0.00f;
-    this->CharacterCustomizationCameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Customization Spring Arm"));
-    this->FirstPersonCameraSpringArmComponent = CreateDefaultSubobject<UVAltarSpringArmComponent>(TEXT("First Person Camera Spring Arm"));
-    this->ThirdPersonCameraSpringArmComponent = CreateDefaultSubobject<UVAltarSpringArmComponent>(TEXT("Camera Spring Arm"));
-    this->CameraBoneName = TEXT("Camera01_Anchor");
+    //this->CharacterCustomizationCameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Customization Spring Arm"));
+    //this->FirstPersonCameraSpringArmComponent = CreateDefaultSubobject<UVAltarSpringArmComponent>(TEXT("First Person Camera Spring Arm"));
+    //this->ThirdPersonCameraSpringArmComponent = CreateDefaultSubobject<UVAltarSpringArmComponent>(TEXT("Camera Spring Arm"));
+    //this->CameraBoneName = TEXT("Camera01_Anchor");
     this->bIsFacingObject = false;
     this->FPSClippingFixGlobalParameters = NULL;
     this->FPSClippingFixAverageFilterSize = 32;
     this->FPSClippingFixWallDetectionRadius = 160.00f;
     this->FPSClippingSSSWWorldUnitScaleFacingWall = 0.15f;
     this->bIsUsingFirstPersonMesh = false;
-    this->FirstPersonSkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("First Person Skeletal Mesh"));
-    this->FirstPersonSkeletalMeshRoot = CreateDefaultSubobject<USceneComponent>(TEXT("First Person Root"));
-    this->FirstPersonUpperBodyChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Upper Body"));
-    this->FirstPersonHandsChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Hands"));
-    this->FirstPersonRightRingChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Right Ring"));
-    this->FirstPersonLeftRingChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Left Ring"));
-    this->GrabArmComponent = CreateDefaultSubobject<UVGrabArmComponent>(TEXT("Grab Spring Arm"));
+    //this->FirstPersonSkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("First Person Skeletal Mesh"));
+    //this->FirstPersonSkeletalMeshRoot = CreateDefaultSubobject<USceneComponent>(TEXT("First Person Root"));
+    //this->FirstPersonUpperBodyChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Upper Body"));
+    //this->FirstPersonHandsChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Hands"));
+    //this->FirstPersonRightRingChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Right Ring"));
+    //this->FirstPersonLeftRingChildActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("First Person Left Ring"));
+    //this->GrabArmComponent = CreateDefaultSubobject<UVGrabArmComponent>(TEXT("Grab Spring Arm"));
     this->FirstPersonSectionBitMask = 4291952639;
     this->bIsPlayerFPSMeshBeingMadeVisible = false;
-    this->CharacterCustomizationCameraSpringArm->SetupAttachment(RootComponent);
+    /*this->CharacterCustomizationCameraSpringArm->SetupAttachment(RootComponent);
     this->FirstPersonCameraSpringArmComponent->SetupAttachment(FirstPersonSkeletalMeshComponent);
     this->FirstPersonHandsChildActorComponent->SetupAttachment(FirstPersonSkeletalMeshComponent);
     this->FirstPersonLeftRingChildActorComponent->SetupAttachment(FirstPersonSkeletalMeshComponent);
@@ -43,7 +43,19 @@ AVOblivionPlayerCharacter::AVOblivionPlayerCharacter(const FObjectInitializer& O
     this->FirstPersonSkeletalMeshRoot->SetupAttachment(FakeRoot);
     this->FirstPersonUpperBodyChildActorComponent->SetupAttachment(FirstPersonSkeletalMeshComponent);
     this->GrabArmComponent->SetupAttachment(FakeRoot);
-    this->ThirdPersonCameraSpringArmComponent->SetupAttachment(FakeRoot);
+    this->ThirdPersonCameraSpringArmComponent->SetupAttachment(FakeRoot);*/
+
+    this->CharacterCustomizationCameraSpringArm = NULL;
+    this->FirstPersonCameraSpringArmComponent = NULL;
+    this->FirstPersonHandsChildActorComponent = NULL;
+    this->FirstPersonLeftRingChildActorComponent = NULL;
+    this->FirstPersonRightRingChildActorComponent = NULL;
+    this->FirstPersonSkeletalMeshComponent = NULL;
+    this->FirstPersonSkeletalMeshRoot = NULL;
+    this->FirstPersonUpperBodyChildActorComponent = NULL;
+    this->GrabArmComponent = NULL;
+    this->ThirdPersonCameraSpringArmComponent = NULL;
+
 }
 
 void AVOblivionPlayerCharacter::SetUseBowAimingRotation(bool bUseBowRotation) {

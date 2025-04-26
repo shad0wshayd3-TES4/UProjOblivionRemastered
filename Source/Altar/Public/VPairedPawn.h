@@ -91,6 +91,10 @@ UCLASS(Blueprintable)
 class ALTAR_API AVPairedPawn : public ACharacter, public IVModdableBlueprintInterface, public IReactToFreezeInterface, public IVPhysicsControllable, public IVTransformPairable, public IVAudioPlayable {
     GENERATED_BODY()
 public:
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = true))
+    bool bIsPlayerCharacter;
+
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float TurnInPlaceAngleThreshold;
     

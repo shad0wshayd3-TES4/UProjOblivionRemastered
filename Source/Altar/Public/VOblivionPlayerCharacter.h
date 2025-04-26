@@ -54,6 +54,10 @@ public:
     TMap<EMagicSchool, UAkAudioEvent*> SpellCastFailedSounds;
     
 protected:
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta = (AllowPrivateAccess = true))
+    UVTESObjectRefComponent* LastHitObjectRefComponent;
+
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bIsFacingObject;
     

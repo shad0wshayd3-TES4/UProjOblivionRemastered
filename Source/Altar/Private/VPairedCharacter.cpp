@@ -32,7 +32,7 @@ AVPairedCharacter::AVPairedCharacter(const FObjectInitializer& ObjectInitializer
     this->CharacterAppearancePairingComponent = CreateDefaultSubobject<UVCharacterAppearancePairingComponent>(TEXT("Appearance"));
     this->EmotionBlendValueMultiplier = 0.50f;
     this->bHasUndockingQueued = false;
-    this->AmuletChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
+    /*this->AmuletChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
     this->FeetChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
     this->HandsChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
     this->HeadwearChildActorComponent->SetupAttachment(HumanoidHeadComponent);
@@ -40,7 +40,7 @@ AVPairedCharacter::AVPairedCharacter(const FObjectInitializer& ObjectInitializer
     this->LeftRingChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
     this->LowerBodyChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
     this->RightRingChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->UpperBodyChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
+    this->UpperBodyChildActorComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));*/
 }
 
 void AVPairedCharacter::WarpToDockingPosition() {
