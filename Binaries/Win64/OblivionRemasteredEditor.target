@@ -18,7 +18,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "UE5",
-		"BuildId": "ad6d6bb7-1283-4ad9-8bf5-3bdbf9261c83"
+		"BuildId": "616ceaa9-d083-44fe-8af9-719a8e929959"
 	},
 	"BuildProducts": [
 		{
@@ -7307,6 +7307,26 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetTutorialPlugin/Binaries/Win64/UnrealEditor-AssetTutorialPlugin.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetTutorialPlugin/Binaries/Win64/UnrealEditor-AssetTutorialPlugin.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetTutorialPlugin/Binaries/Win64/UnrealEditor-AssetTutorialPluginEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetTutorialPlugin/Binaries/Win64/UnrealEditor-AssetTutorialPluginEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetTutorialPlugin/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		}
 	],
@@ -30821,6 +30841,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/OblivionRemastered.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/AssetTutorialPlugin/AssetTutorialPlugin.uplugin",
 			"Type": "UFS"
 		}
 	],
